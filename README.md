@@ -5,7 +5,7 @@ exploring an MCP server over streamable HTTP.
 
 Demo: connecting to Twilio's MCP server and running a docs search.
 
-<video src="demo/twilio-docs-search.webm" controls width="800"></video>
+![Demo: connecting to Twilio's MCP server and running a docs search](demo/twilio-docs-search.webm)
 
 ```
 brew tap nreidtwil/munch
