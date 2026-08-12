@@ -10,5 +10,19 @@ brew tap nreidtwil/munch
 brew install munch
 ```
 
+If Homebrew refuses the install with "Refusing to load formula ... from untrusted
+tap", trust this tap first (recent Homebrew versions require this for any third-party
+tap on first use):
+
+```
+brew trust nreidtwil/munch
+```
+
+Upgrade with:
+
+```
+brew upgrade munch
+```
+
 The `munch` source code is not yet open source, so this repository contains only the
 Homebrew formula and compiled release binaries — no source code.
